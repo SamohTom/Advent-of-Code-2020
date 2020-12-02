@@ -12,3 +12,4 @@ for i in range(len(line)):
     if int(minMax[0]) <= countedLetters <= int(minMax[1]):
         counter += 1
         print(line[i])
+print(counter)

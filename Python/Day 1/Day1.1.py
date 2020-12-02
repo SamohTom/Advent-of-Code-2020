@@ -11,6 +11,6 @@ for i in range(len(inputNumbers)):
             break
         else:
             valid = False
-    if valid:
+    if valid == True:
         break
 
