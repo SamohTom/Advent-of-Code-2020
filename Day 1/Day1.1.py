@@ -1,19 +1,16 @@
-import time
-start = time.time()
 f = open("Day1.1Input.txt", "r")
-Zahlen = f.read().split("\n")
-Wert = False
-for i in range(len(Zahlen)):
-    for z in range(len(Zahlen)):
-        if int(Zahlen[i])+int(Zahlen[z]) == 2020:
-            Wert = True
-            print(Zahlen[i])
-            print(Zahlen[z])
-            print(int(Zahlen[i])*int(Zahlen[z]))
+inputNumbers = f.read().split("\n")
+valid = False
+for i in range(len(inputNumbers)):
+    for z in range(len(inputNumbers)):
+        if int(inputNumbers[i])+int(inputNumbers[z]) == 2020:
+            valid = True
+            print(inputNumbers[i])
+            print(inputNumbers[z])
+            print(int(inputNumbers[i])*int(inputNumbers[z]))
             break
         else:
-            Wert = False
-    if Wert == True:
+            valid = False
+    if valid:
         break
-end = time.time()
-print(end-start)
+
