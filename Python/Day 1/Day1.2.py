@@ -5,7 +5,7 @@ for i in range(len(inputNumbers)):
     for z in range(len(inputNumbers)):
         for x in range(len(inputNumbers)):
             if int(inputNumbers[i])+int(inputNumbers[z])+int(inputNumbers[x]) == 2020:
-                Wert = True
+                valid = True
                 print(inputNumbers[i])
                 print(inputNumbers[z])
                 print(inputNumbers[x])
