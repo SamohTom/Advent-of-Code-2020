@@ -8,6 +8,6 @@ You can contact me via opening a new Issue.
 --------------------------German-------------------------
 All meine Lösungen für Advent Of Code 2020
 
-Wenn ihr den Code selbst verwenden möchted vergestt bitte nicht, dass ihr die Input Datein mit euren eigenen Inputs füllen müsst.
-Wenn ihr Fragen habt könnt ihr mir die gerne schreiben.
-Ihr erreicht mich über das Eröffnen eines neuen Problems(Issues).
+Wenn ihr den Code selbst verwenden möchted vergesst bitte nicht, dass ihr die Input Datein mit euren eigenen Input Daten füllen müsst.
+Wenn ihr Fragen habt könnt ihr mir diese gerne schreiben.
+Ihr erreicht mich über das Eröffnen eines neuen Problems(Issue).
