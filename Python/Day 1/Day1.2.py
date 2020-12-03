@@ -9,7 +9,7 @@ for i in range(len(inputNumbers)):
                 print(inputNumbers[i])
                 print(inputNumbers[z])
                 print(inputNumbers[x])
-                print(int(inputNumbers[i])*int(inputNumbers[z])*int(inputNumbers[x]))
+                print("The answer is : " + str(int(inputNumbers[i])*int(inputNumbers[z])*int(inputNumbers[x])))
                 break
             else:
                 valid = False

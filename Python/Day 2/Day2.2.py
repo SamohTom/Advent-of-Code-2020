@@ -15,7 +15,7 @@ for i in range(len(line)):
             counter += 1
             print(line[i])
     else:
-        if p2 == key[0]:
+        if p2 == key:
             counter += 1
             print(line[i])
-print(counter)
+print("The answer is : " + str(counter))
