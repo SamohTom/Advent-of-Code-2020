@@ -97,6 +97,8 @@ def pidValid(pid):
 
 f = open("Day4.1Input.txt ", "r")
 lines = f.read().split("\n\n")
+if len(lines) == 1:
+    raise Exception(" No Input Data")
 
 for i in range(len(lines)):
     x = lines[i].replace("\n", " ")

@@ -1,5 +1,7 @@
 f = open("Day2.1Input.txt", "r")
 line = f.read().split("\n")
+if len(line) == 1:
+    raise Exception(" No Input Data")
 col = []
 counter = 0
 for i in range(len(line)):

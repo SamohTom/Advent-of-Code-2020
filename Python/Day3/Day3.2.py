@@ -1,5 +1,7 @@
 f = open("Day3.1Input.txt", "r")
 line = f.read().split("\n")
+if len(line) == 1:
+    raise Exception(" No Input Data")
 slopes = [[1, 1], [3, 1], [5, 1], [7, 1], [1, 2]]
 all = []
 result = 0

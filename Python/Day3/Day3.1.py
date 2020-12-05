@@ -1,5 +1,7 @@
 f = open("Day3.1Input.txt", "r")
 line = f.read().split("\n")
+if len(line) == 1:
+    raise Exception(" No Input Data")
 x = 3
 y = 1
 counter = 0
