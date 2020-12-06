@@ -1,7 +1,7 @@
 f = open("Day4.1Input.txt ", "r")
 lines = f.read().split("\n\n")
-if len(lines) == 1:
-    raise Exception(" No Input Data")
+if len(lines) <= 3:
+    raise Exception("No Input Data")
 
 passports = []
 passport = []

@@ -1,7 +1,7 @@
 f = open("Day5.1Input.txt ", "r")
 lines = f.read().split("\n")
-if len(lines) == 1:
-    raise Exception(" No Input Data")
+if len(lines) <= 3:
+    raise Exception("No Input Data")
 rows = 128
 columns = 8
 yourID = 0

@@ -1,6 +1,6 @@
 f = open("Day1.2Input.txt", "r")
 inputNumbers = f.read().split("\n")
-if len(inputNumbers) == 1:
+if len(inputNumbers) <= 3:
     raise Exception(" No Input Data")
 valid = False
 for i in range(len(inputNumbers)):
