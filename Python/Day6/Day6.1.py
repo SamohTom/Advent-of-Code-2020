@@ -12,4 +12,4 @@ for i in lines:
         if z not in letters:
             letters.append(z)
     counter += len(letters)
-print(counter)
+print("The answer is : " + str(counter))

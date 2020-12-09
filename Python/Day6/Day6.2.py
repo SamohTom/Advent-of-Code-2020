@@ -16,4 +16,4 @@ for i in lines:
             counter += 1
         for y in range(letters.count(letters[0])):
             letters.remove(key)
-print(counter)
+print("The answer is : " + str(counter))
