@@ -6,6 +6,7 @@ If there are any questions please write me in English or German.
 You can contact me via opening a new Issue.
 
 --------------------------German-------------------------
+
 All meine Lösungen für Advent Of Code 2020
 
 Wenn ihr den Code selbst verwenden möchted vergesst bitte nicht, dass ihr die Input Datein mit euren eigenen Input Daten füllen müsst.
